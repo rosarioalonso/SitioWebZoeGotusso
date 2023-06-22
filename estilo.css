@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@keyframes scaleAnim {
+    0%{
+        color: #AC5C39;
+        transform: scale(-0);
+    }
+    50%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes izqAnim {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-1200px);
+    }
+    100%{
+        transform: translateX(-1200px);
+    }
+}
+
+@keyframes derAnim {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(1500px);
+    }
+    100%{
+        transform: translateX(1500px);
+    }
+}
+
+
+* {margin: 0; padding: 0;}
+a {text-decoration: none;}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF0DF;
+    box-sizing: border-box;}
+
+.bg1{
+    background: #AC5C39;
+}
+
+.color1{
+    color: #FFF0DF;
+}
+
+.color2{
+    color: #AC5C39;
+}
+
+.btn{
+    background-color: #AC5C39;
+    color: #FFF0DF;
+}
+
+.btn:hover{
+    border: solid #AC5C39 1px;
+    background-color: #FFF0DF;
+    color: #AC5C39;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.carousel-caption{
+    top: 40%;
+    left: 65%;
+    right: 0%;
+}
+
+.animhome{
+    animation-name: scaleAnim;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.ganas{
+    background-image: url(img/hero_ganas.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet{
+    background-image: url(img/fondo_meet.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.titulotour{
+    animation-name: izqAnim;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.tour-hero{
+    background-image: url(img/hero_tour.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fecha{
+    width: 35%;
+}
+
+.rta{
+    background-image: url(img/hero_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.animizq{
+    animation-name: izqAnim;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.animder{
+    animation-name: derAnim;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.scaleanim{
+    animation-name: scaleAnim;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.opacity:hover{
+    opacity: 50%;
+}
+
+#noticias, #store{
+    overflow: hidden;
+}

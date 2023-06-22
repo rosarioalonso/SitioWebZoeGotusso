@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body {margin: 0; font-family: 'Montserrat', sans-serif; background-color: #F8E1C2; box-sizing: border-box;}
+a {text-decoration: none; color: black;}
+
+header {background-image: url(img_landing/fondo_landing.png); background-position: center; background-repeat: no-repeat; background-size: cover;
+    min-height: 13vh; align-items: center; display: flex;}
+
+.contenedorFlex {text-align: center; width: 100%;}
+
+.logo {text-align: center; margin-bottom: 50px; margin-top: 5%;}
+.logo img {width: 200px;}
+
+.evento {text-align: center; margin-bottom: 5%;}
+
+
+#invitacion {display: flex; min-height: 60vh; align-items: center;}
+.cajacontenedora {width: 50%; align-items: center; text-align: center;}
+
+.texto, .titulo, .boton_secundario {text-align: left; margin-left: 30%;}
+.texto {font-size: 20px;}
+.comprar1 {width: 35%; padding: 5px; font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 20px; background-color: #8d834d; border: solid #8d834d; border-radius: 10px; color: #FAEAD4; margin-top: 2%;}
+.comprar1:hover {background-color: #F8E1C2; border: solid #8d834d; color: #8d834d;}
+
+.zoe_circulo img {width: 300px;}
+
+#actividades{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+.cajacontenedora2 {display: flex; align-items: center;}
+.informacion {text-align: center; margin: 5%;}
+.icono img {width: 50px; margin-bottom: 7%}
+
+.form-control{
+    background-color: #FAEAD4;
+    border: solid #AC5C39 1px;
+}
+
+.btn{
+    background-color: #8d834d;
+    width: 30%;
+    color: #F8E1C2;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #F8E1C2;
+    border: solid #8d834d;
+    color: #8d834d;
+}
+
+#datos {min-height: 40vh;}
+.cajacontenedora3 {margin-top: 3%; margin-bottom: 5%;}
+.pregunta {text-align: center; margin: 1%; margin-bottom: 3.5%}
+
+footer {background-image: url(img_landing/fondo_footer.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.logofooter {text-align: center; padding: 2%;} 
+.logofooter img {width: 130px; margin: 20px;}
+
+#agradecimiento h1 {text-align: center; margin-left: 10%; margin-right: 10%;}
+#agradecimiento p {text-align: center; margin-left: 10%; margin-right: 10%;}
+.mensajeRespuesta {margin-top: 5%; }
+
+
+.respuesta {min-height: 100vh;}
+.mensajeRespuesta h2{padding: 1%; background-color: #8d834d; text-align: center; width: 20%; border: solid #8d834d; border-radius: 25px; margin: auto; margin-top: 3%;}
+.footer-respuesta {width: 100%; background-image: url(img_landing/fondo_footer.png); background-position: center; background-repeat: no-repeat; background-size: cover; position:fixed; left:0px; bottom:0px;}
+
+@media (max-width: 768px)
+{
+    .logo img {width: 130px;}
+    header {max-width: 100%;}
+    .evento {margin-top: 0%;}
+    #invitacion {min-width: 100%; display: block; margin-top: 30px;}
+    .cajacontenedora {width: 100%; display: block; text-align: center;}
+    .texto, .titulo {text-align: left; margin: auto; padding: 7%;}
+    .boton_secundario {margin-top: 0; text-align: left;}
+    .comprar1 {width: 60%; padding: 5px; font-family: 'Montserrat', sans-serif;}
+    .zoe_circulo {text-align: center;}
+    .zoe_circulo img {width: 250px; margin-top: 100px; text-align: center;}
+    #actividades {display: flex; margin-top: 80px;}
+    .cajacontenedora2 {display: block; text-align: center;}
+    .informacion {width: 80%; margin: auto; margin-top: 30px; margin-bottom: 50px;}
+    .info {width: 80%; margin: auto;}
+    #datos {margin-top: 80px; margin-bottom: 80px;}
+    .pregunta {padding-left: 10px; padding-right: 10px;}
+    .mensajeRespuesta {margin-top: 50%;}
+}
